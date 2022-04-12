@@ -5,7 +5,7 @@
         public List<DomainEvent> DomainEvents { get; set; }
     }
 
-    public class DomainEvent
+    public abstract class DomainEvent
     {
         protected DomainEvent()
         {
